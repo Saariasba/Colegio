@@ -1,0 +1,9 @@
+<?php
+  session_name("loginUsuario");
+  session_start();
+  $_SESSION["consultarC"]="SI";
+  $_SESSION["anio"]=$_POST["anio"];
+  $_SESSION["periodo"]=$_POST["periodo"];
+  $_SESSION["tipo"]=$_POST["tipo"];
+  header("Location:RectorCrearCurso.php");
+?>

@@ -1,0 +1,9 @@
+<?php
+session_name("loginUsuario");
+session_start();
+$_SESSION["consultaNotas"]="SI";
+$_SESSION["año"]=$_POST['option'];
+$_SESSION["periodo"]=$_POST['option2'];
+$_SESSION["materia"]=$_POST['option3'];
+header("Location:ProfesorDirector.php");
+ ?>

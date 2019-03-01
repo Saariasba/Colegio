@@ -1,0 +1,20 @@
+<?php
+  session_name("loginUsuario");
+  session_start();
+  if ($_POST['actualizar']==true) {
+    $_SESSION["editar"]="SI";
+    $_SESSION["identificacion2"]=$_POST['identificacion'];
+    $_SESSION["nombres2"]=$_POST['nombres'];
+    $_SESSION["apellidos2"]=$_POST['apellidos'];
+    $_SESSION["edad2"]=$_POST['edad'];
+    $_SESSION["genero2"]=$_POST['genero'];
+    $_SESSION["tipoId2"]=$_POST['tipoId'];
+    $_SESSION["tipoPersona2"]=$_POST['tipoPersona'];
+    $_SESSION["clave2"]=$_POST['clave'];
+    $_SESSION["informacionT"]="NO";
+  }else{
+    $_SESSION["identificacion1"]=$_POST['identificacion'];
+    $_SESSION["informacionT"]="SI";
+  }
+  header("Location:RectorInformacionTotal.php");
+?>

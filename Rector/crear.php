@@ -1,0 +1,14 @@
+<?php
+  session_name("loginUsuario");
+  session_start();
+  $_SESSION["crear"]="SI";
+  $_SESSION["identificacion"]=$_POST['identificacion'];
+  $_SESSION["nombres"]=$_POST['nombres'];
+  $_SESSION["apellidos"]=$_POST['apellidos'];
+  $_SESSION["edad"]=$_POST['edad'];
+  $_SESSION["genero"]=$_POST['genero'];
+  $_SESSION["tipoId"]=$_POST['tipoId'];
+  $_SESSION["tipoPersona"]=$_POST['tipoPersona'];
+  $_SESSION["clave"]=$_POST['clave'];
+  header("Location:RectorCrearPersona.php");
+?>

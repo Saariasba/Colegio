@@ -1,0 +1,62 @@
+header {
+	background:#1C4CE1;
+	color:#fff;
+}
+.trans{
+  width: 200px;
+  background-color: FF4200;
+}
+.botones{
+	width: 240px;
+	background-color: #1C4CE1;
+}
+footer{
+	background:#1C4CE1;
+	color:#fff;
+}
+.color1{
+	background:#F41E1E;
+}
+body{
+	background:#F41E1E;
+}
+.atras{
+	background: #05A3F2;
+	height: 1500px;
+	overflow-y: scroll;
+}
+.atras2{
+	background: #05A3F2;
+	margin-bottom: 20px;
+}
+.blanco{
+	background: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.enfoque{
+	background:#FFAE00;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.enfoque2{
+	background:#1C4CE1;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.enfoque4{
+	background:#1C4CE1;
+	margin-top: 40px;
+	height: 700px;
+	overflow-y: scroll;
+}
+.enfoque3{
+	background:#2CCF00;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.botonesA{
+	background:#05A3F2;
+	height: 1500px;
+	min-width: 300px
+}
